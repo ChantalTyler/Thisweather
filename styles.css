@@ -1,0 +1,75 @@
+.container {
+ 
+    margin-top: 10%;
+    margin-bottom: 70%;
+    max-width: 75%;
+    max-height: 500px;
+    box-shadow: -1px 10px 5px 0px rgba(161,171,171,0.29);
+    background: linear-gradient(to top, #757f9a, #d7dde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+padding:10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.currentCity {
+    color:#323744;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+ margin:0;
+ padding:0;
+ position: relative;
+ left:150px;
+ top:0px;
+
+    
+}
+.size{
+
+    position: relative;
+    font-size: 26px;
+    
+}
+.futureForecast {
+    list-style: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+}
+
+.containerTwo {
+    display:flex;
+
+    
+    justify-content: space-evenly;
+    
+    
+ 
+}
+.windPrec{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    font-size: 22px;
+}
+.dateTime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom:140px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    
+}
+
+.card-size {
+    max-width: 70px;
+    max-height: 90px;
+    padding:0px;
+    font-size: 16px;
+}
+.currentCity{
+    display: inline;
+}
